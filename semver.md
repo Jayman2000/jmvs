@@ -1,5 +1,5 @@
-Semantic Versioning 2.0.0
-==============================
+Semantic Versioning [version-placeholder]
+=========================================
 
 Summary
 -------
