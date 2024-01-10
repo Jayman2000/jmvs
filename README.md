@@ -1,9 +1,17 @@
-# Semantic Versioning Specification
+# Jason’s Modified Version of SemVer
 
-"Semantic Versioning" or "SemVer" contains a set of rules and requirements that dictate how version numbers are assigned and incremented. You can find the full document in [semver.md](./semver.md) or visit our official website [semver.org](https://semver.org) to find previous versions and localized specifications.
+I want to use [SemVer](https://semver.org) for my projects, but SemVer
+has a significant problem: [In certain circumstances, you can’t release
+a new version without breaking the SemVer spec.][1]
 
-Changes to the document are published to the website by a [GitHub Actions workflow](https://github.com/semver/semver.org/blob/gh-pages/.github/workflows/sync.yml) which runs once each day.
+JMVS is the same thing as the upstream version of SemVer, but with [one
+specific change that fixes that previously mentioned issue][2].
+Hopefully, the upstream version of SemVer will be fixed one day so that
+I can get rid of this fork.
 
-## Contributing
+The JMVS spec itself is in [`semver.md`](./semver.md). For my own
+convenience, I didn’t bother renaming it. It still calls itself the
+“Semantic Versioning Specification”.
 
-See the [contribution guide](./CONTRIBUTING.md).
+[1]: https://github.com/semver/semver/pull/588#issuecomment-1716070281
+[2]: https://github.com/semver/semver/pull/588#issuecomment-1725431372
